@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Maternidade</string>
+
+    <string name="bebe">Bebê</string>
+    <string name="medico">Médico</string>
+    <string name="mae">Mãe</string>
+</resources>
