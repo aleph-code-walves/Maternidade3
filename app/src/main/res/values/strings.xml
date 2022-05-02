@@ -4,4 +4,22 @@
     <string name="bebe">Bebê</string>
     <string name="medico">Médico</string>
     <string name="mae">Mãe</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="listar">Listar</string>
+    <string name="adicionar">Adicionar</string>
+    <string name="gerenciar_maes">Gerenciar Mães</string>
+    <string name="excluir">Excluir</string>
+    <string name="cep">CEP</string>
+    <string name="nome">Nome</string>
+    <string name="logradouro">Logradouro</string>
+    <string name="numero">Número</string>
+    <string name="bairro">Bairro</string>
+    <string name="cidade">Cidade</string>
+    <string name="telefone_fixo">Telefone Fixo</string>
+    <string name="telefone_celular">Telefone Celular</string>
+    <string name="telefone_comercial">Telefone Comercial</string>
+    <string name="data_nascimento">Data Nascimento</string>
+    <string name="salvar">Salvar</string>
+    <string name="editar">Editar</string>
 </resources>
