@@ -27,20 +27,20 @@ public class MainFragment extends Fragment {
 
         View v = inflater.inflate(R.layout.mae_fragment_main, container, false);
         if (savedInstanceState == null) {
-            getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.frameMae, new ListarFragment()).commit();
+            getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.framebaby, new ListarFragment()).commit();
         }
         Button btnListar = v.findViewById(R.id.buttonListar);
         btnListar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.frameMae, new	ListarFragment()).commit();
+                getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.framebaby, new	ListarFragment()).commit();
             }
         });
         Button btnAdicionar = v.findViewById(R.id.buttonAdicionar);
         btnAdicionar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.frameMae, new AdicionarFragment()).commit();
+                getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.framebaby, new AdicionarFragment()).commit();
             }
         });
 

@@ -6,13 +6,13 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="15dp"
-    tools:context=".">
+    tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/textViewGerenciarMaes"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/gerenciar_maes"
+        android:text="@string/gerenciar_babs"
         android:textAlignment="center"
         android:textSize="18sp"
         android:textStyle="bold" />
@@ -41,13 +41,6 @@
 
     <FrameLayout
         android:id="@+id/frameMae"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-    </FrameLayout>
-
-    <FrameLayout
-        android:id="@+id/framebaby"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 

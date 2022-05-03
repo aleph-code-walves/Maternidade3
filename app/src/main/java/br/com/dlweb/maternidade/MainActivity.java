@@ -4,7 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-import br.com.dlweb.maternidade.mae.MainFragment;
+import br.com.dlweb.maternidade.baby.MainFragment;
 
 public class MainActivity extends AppCompatActivity {
 

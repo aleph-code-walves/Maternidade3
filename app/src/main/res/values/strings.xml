@@ -9,6 +9,7 @@
     <string name="listar">Listar</string>
     <string name="adicionar">Adicionar</string>
     <string name="gerenciar_maes">Gerenciar Mães</string>
+    <string name="gerenciar_babs">Gerenciar Bebês</string>
     <string name="excluir">Excluir</string>
     <string name="cep">CEP</string>
     <string name="nome">Nome</string>

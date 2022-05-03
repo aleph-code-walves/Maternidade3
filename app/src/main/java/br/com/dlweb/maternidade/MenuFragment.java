@@ -3,6 +3,10 @@ package br.com.dlweb.maternidade;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentActivity;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentTransaction;
+
 
 import android.view.LayoutInflater;
 import android.view.Menu;
@@ -12,6 +16,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
 
+import br.com.dlweb.maternidade.mae.ListarFragment;
+import br.com.dlweb.maternidade.mae.MainFragment;
+import br.com.dlweb.maternidade.mae.MainFragment;
 
 public class MenuFragment extends Fragment {
     public MenuFragment() {
@@ -39,13 +46,12 @@ public class MenuFragment extends Fragment {
     public boolean onOptionsItemSelected (MenuItem item) {
         switch (item.getItemId()) {
             case R.id.menu_mae:
-                Toast.makeText(getActivity(), "Mãe", Toast.LENGTH_LONG).show();
+                getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.frameMain, new br.com.dlweb.maternidade.mae.MainFragment()).commit();
                 break;
             case R.id.menu_medico:
-                Toast.makeText(getActivity(), "Médico", Toast.LENGTH_LONG).show();
-                break;
+
             case R.id.menu_bebe:
-                Toast.makeText(getActivity(), "Bebê", Toast.LENGTH_LONG).show();
+                getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.frameMain, new br.com.dlweb.maternidade.baby.MainFragment()).commit();
                 break;
         }
         return super.onOptionsItemSelected(item);
